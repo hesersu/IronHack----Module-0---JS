@@ -158,12 +158,12 @@ console.log(product.year);
 product.available = true;
 console.log(product.available);
 
-//  5.
+//  5. step
 
 delete product.tags;
 console.log(product.tags);
 
-// 6.
+// 6. step
 
 if (product.price > 1000) {
   product.discount = 10;
@@ -171,15 +171,15 @@ if (product.price > 1000) {
 
 console.log(product.discount);
 
-// 7.
+// 7. step
 
 product.price -= product.price * (product.discount / 100);
 console.log(product.price);
 
-// 8.
+// 8. step
 
 if ("discount" in product === true) {
   console.log(
-    `We got a ${product.model} on sale for just $${product.price}. That's ${product.discount}% off!`
+    `We got a ${product.model} on sale for just $${product.price}. That's ${product.discount}% off!!!`
   );
 }
