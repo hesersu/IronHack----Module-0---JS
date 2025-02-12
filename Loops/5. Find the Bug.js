@@ -1,17 +1,18 @@
-// let bootcamp = "IRONHACK";
+// TODO: Infinite loop 1
 
-// // Your code here:
+// let count = 10;
 
-// for (let i = 0; i < bootcamp.length; ++i) {
-//   const char = bootcamp[i];
-//   console.log(char);
+// while (count >= 0) {
+//   console.log(count);
+//   count--;
 // }
 
-let word = "TRAMS";
+// console.log("END");
 
-// Your code here:
+// TODO: Infinite loop 2
 
-for (let i = word.length - 1; i >= 0; --i) {
-  const char = word[i];
-  console.log(char);
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
 }
+
+console.log("END");
